@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+* {
+    margin: 0px;
+}
+.top-header {
+    width: 100%;
+    display: flex;
+    color: #F9F8F8;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-header h2 {
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 400px;
+}
+.top-header ul {
+    display: flex;
+}
+.top-header li {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+#website-info {
+    width: 100%;
+    height: 60vh; 
+    margin: auto;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#website-info img {
+    width: 700px;
+    height: 400px;
+    margin-right: 210px;
+    object-fit: cover;
+}
+#website-info header {
+    color: #F9F8F8;
+    font-size: 48px;
+    font-weight: 800;
+}
+#website-info p {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+#website-info .text {
+    width: 35%;
+    margin-left: 200px;
+}
+#website-info button {
+    width: 10rem;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 6px;
+    margin: 10px 0px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#info {
+    width: 100%;
+    height: 60vh;
+    background-color: whitesmoke;
+}
+#info header {
+    text-align: center;
+    padding: 45px 0px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+#info img {
+    width: 200px;
+    height: 340px;
+    border-radius: 10px;
+    border: 5px solid rgb(106, 195, 224);
+}
+.product-img {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#info p {
+    color: #1F2937;
+    width: 210px;
+    padding: 10px 0px;
+}
+#quote {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    background-color: #E5E7EB;
+}
+#quote p {
+    width: 55%;
+    margin: auto;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+cite {
+    font-size: 30px;
+    position: relative;
+    bottom: 100px;
+    left: 1280px;
+}
+#product-sign-up {
+    display: flex;
+    width: 100%;
+    height: 35vh;
+    align-self: center;
+    background-color: whitesmoke;
+}
+.whole-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #E5E7EB;
+    width: 65%;
+    margin: auto;
+    font-size: 20px;
+    padding: 50px;
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+}
+.whole-section p {
+    font-size: 18px;
+    padding: 5px 0px;
+}
+.whole-section button {
+    width: 10rem;
+    padding: 10px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    font-size: 18px;
+}
