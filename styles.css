@@ -109,11 +109,13 @@ body {
     font-size: 36px;
     font-style: italic;
 }
-cite {
+#quote cite {
+    width: 75%;
+    color: #1F2937;
     font-size: 30px;
+    text-align: end;
     position: relative;
-    bottom: 100px;
-    left: 1280px;
+    bottom: 80px;
 }
 #product-sign-up {
     display: flex;
